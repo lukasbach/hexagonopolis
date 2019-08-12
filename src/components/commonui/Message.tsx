@@ -76,7 +76,7 @@ export const Message: React.FC<{
       {
         props.avatarAsset && (
           <img
-            src={`/assets/avatars/${props.avatarAsset}.png`}
+            src={`./assets/avatars/${props.avatarAsset}.png`}
             alt={props.title}
             className={css(
               styles.avatar,

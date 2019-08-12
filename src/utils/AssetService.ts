@@ -10,7 +10,7 @@ export class AssetService {
   }
 
   private static getUrl(assetName: string, tileOrObject: 'tile' | 'object', size: AssetSize) {
-    return `/assets/${tileOrObject === 'tile' ? 'tiles' : 'objects'}/${this.getSizeText(size)}/`
+    return `./assets/${tileOrObject === 'tile' ? 'tiles' : 'objects'}/${this.getSizeText(size)}/`
       + `${assetName}${this.getSizeFileSuffix(size)}${this.getFileEnding(size)}`;
   }
 

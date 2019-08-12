@@ -1,7 +1,7 @@
 # Hexagonopolis
 
 Hexagonopolis is a web-based minigame playable at 
-[lukasbach.github.io/hexagonopolis](https://lukasbach.github.io/hexagonopolis).
+[lukasbach.github.io/hexagonopolis](https://lukasbach.github.io/hexagonopolis/).
 It was developed using React and Typescript, the assets are designed
 by [Kenney](https://kenney.nl).
 
