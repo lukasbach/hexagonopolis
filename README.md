@@ -1,5 +1,14 @@
 # Hexagonopolis
 
+[![Build Status](https://travis-ci.com/lukasbach/hexagonopolis.svg?branch=master)](https://travis-ci.com/lukasbach/hexagonopolis)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=lukasbach_hexagonopolis&metric=bugs)](https://sonarcloud.io/dashboard?id=lukasbach_hexagonopolis)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=lukasbach_hexagonopolis&metric=code_smells)](https://sonarcloud.io/dashboard?id=lukasbach_hexagonopolis)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=lukasbach_hexagonopolis&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=lukasbach_hexagonopolis)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=lukasbach_hexagonopolis&metric=ncloc)](https://sonarcloud.io/dashboard?id=lukasbach_hexagonopolis)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=lukasbach_hexagonopolis&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=lukasbach_hexagonopolis)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=lukasbach_hexagonopolis&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=lukasbach_hexagonopolis)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=lukasbach_hexagonopolis&metric=security_rating)](https://sonarcloud.io/dashboard?id=lukasbach_hexagonopolis)
+
 Hexagonopolis is a web-based minigame playable at 
 [lukasbach.github.io/hexagonopolis](https://lukasbach.github.io/hexagonopolis/).
 It was developed using React and Typescript, the assets are designed
