@@ -2,28 +2,28 @@ id;name;assetName;costs;req_agri;req_crystal;req_extra;req_fuel;req_mili;req_noi
 blocking_rock;Blocking Rock;tile14;;;;;;;;;;;;;;;;;;;;;;;;;;Welp, I guess you can't build here!
 blocking_rock_2;Blocking Rock;tile15;;;;;;;;;;;;;;;;;;;;;;;;;;Welp, I guess you can't build here!
 blocking_rock_3;Blocking Rock;tile16;;;;;;;;;;;;;;;;;;;;;;;;;;Welp, I guess you can't build here!
-joker;Joker Tile;tile92;;;;;;;;;;;;;;5;;;5;;;5;5;5;5;5;;
-farm_fields;Fields;tile124;;;;;;;;;;1+;;1+;;2;;;;;;1;;;;;;
-farm_smelt;Smeltery;tile128;;;;;;;;;;;3+;;;2;;;;;;;;1;4;;;
-farm_smith;Smith;tile126;;;;;;;;;;;;;;;;;;;;;;;;;;
-lumberjack;Lumberjack;tile129;;;;;;;;;;;;4+;;1;;;;;;;;;;6;;
+joker;Joker Tile;tile92;;;;;;;;;;;;;;5;;;5;;;5;5;5;5;5;;Think of all the possibilities!
+farm_fields;Fields;tile124;;;;;;;;;;1+;;1+;;2;;;;;;1;;;;;;Some good food is in the making under these fields.
+farm_smelt;Smeltery;tile128;;;;;;;;;;;3+;;;2;;;;;;;;1;4;;;Just your local Smeltery.
+farm_smith;Metalsmith;tile126;;;;;;;;;;;;;;;;;;;;;;;;;;Just your local Metalsmith.
+lumberjack;Lumberjack;tile129;;;;;;;;;;;;4+;;1;;;;;;;;;;6;;Processing raw wood into processed, slightly smaller wood.
 road_grass_stone;Stone Transportation Road;tile79;;;;;;;;;;;2+;;;;;;;;;;;;2;;;
 road_grass_wood;Wood transportation Road;tile79;;;;;;;;;;;;2+;;;;;;;;;;;;2;;
-residential0;Residential Home;tile143;;;;;;;2-;;;2+;;;;;;;;;;;;;;;2;
-residential1;Residential Home;tile144;;;;;;;2-;;;2+;;;;;;;;;;;;;;;2;
-residential2;Residential Home;tile145;;;;;;;2-;;;2+;;;;;;;;;;;;;;;2;
-residential3;Residential Home;tile146;;;;;;;2-;;;2+;;;;;;;;;;;;;;;2;
-castle_small;Small Castle;tile133;;;;;;0-;;;;;;1+;0-;;;;;;;2;1;2;;;;
-castle_big;Large Castle;tile134;;;;;;0-;;;;;1+;;0-;;;;;;;4;3;3;;;;
-arc;Roman Triumphal Arc;tile158;;;;;;0-;;;;;1+;1+;;;;;;;;2;2;;;;;
+residential0;Residential Home;tile143;;;;;;;2-;;;2+;;;;;;;;;;;;;;;2;Home to John Doe, your typical 9-5 worker.
+residential1;Residential Home;tile144;;;;;;;2-;;;2+;;;;;;;;;;;;;;;2;Home to John Doe, your typical 9-5 worker.
+residential2;Residential Home;tile145;;;;;;;2-;;;2+;;;;;;;;;;;;;;;2;Home to John Doe, your typical 9-5 worker.
+residential3;Residential Home;tile146;;;;;;;2-;;;2+;;;;;;;;;;;;;;;2;Home to John Doe, your typical 9-5 worker.
+castle_small;Small Castle;tile133;;;;;;0-;;;;;;1+;0-;;;;;;;2;1;2;;;;This small castle attracts some tourists into your hexagonal region.
+castle_big;Large Castle;tile134;;;;;;0-;;;;;1+;;0-;;;;;;;4;3;3;;;;This large castle attracts lots of tourists into your hexagonal region.
+arc;Roman Triumphal Arc;tile158;;;;;;0-;;;;;1+;1+;;;;;;;;2;2;;;;;Built a long time ago, many tourists come to visit your lands to go see this attraction.
 office_small;Small Office Building;tile103;;;;;;1+;;;;;1+;;;;;;;;1;;;2;;;1;Lots of people working there! Like almost a quarter of them!
-office_medium;Medium Office Building;tile161;;;;;;1+;;;;;2+;;;;;;;;2;;;3;;;1;
-office_big;Large Office Building;tile162;;;;;;2+;;;;;3+;;;;;;;;3;;;2;;;3;
-shop0;Shop;tile147;;1+;;;;;;;;;;1+;;;;;;;1;;;2;;;;
-shop1;Shop;tile148;;2+;;;;;;;;;;1+;;;;;;;1;;;2;;;;
-shop2;Shop;tile149;;;;;;;;;;1+;;2+;;;;;;;1;;;3;;;;
-waste_plant;Waste Incineration Plant;tile138;;;;;;;;;;;;;3+;2;;;4;;2;;;;;;-6;
-church;Church;tile157;;;;;;0-;2-;;;1+;;1+;;;;;;;;4;;4;;;;
+office_medium;Medium Office Building;tile161;;;;;;1+;;;;;2+;;;;;;;;2;;;3;;;1;This professional office building even has a water fountain.
+office_big;Large Office Building;tile162;;;;;;2+;;;;;3+;;;;;;;;3;;;2;;;3;A large modern office building that houses an enterprise company that will probably go bankrupt in the next two years.
+shop0;Shop;tile147;;1+;;;;;;;;;;1+;;;;;;;1;;;2;;;;People can buy groceries there, but it gets most of its income from teenagers buying alcohol.
+shop1;Shop;tile148;;2+;;;;;;;;;;1+;;;;;;;1;;;2;;;;People can buy groceries there, but it gets most of its income from teenagers buying alcohol.
+shop2;Shop;tile149;;;;;;;;;;1+;;2+;;;;;;;1;;;3;;;;People can buy groceries there, but it gets most of its income from teenagers buying alcohol.
+waste_plant;Waste Incineration Plant;tile138;;;;;;;;;;;;;3+;2;;;4;;2;;;;;;-6;Converts garbage into pure energy, without serious side effects. I don't think it works like that in real-life…
+church;Church;tile157;;;;;;0-;2-;;;1+;;1+;;;;;;;;4;;4;;;;A spiritual place.
 camping;Camping Place;tile159;;;;;;;0-;3+;;;;2+;;;;;;;;;;3;;1;;
 mine;Mining Shaft;tile160;;;;;;;;;;;;;;;;;;;;;;;;;;
 fountain;Water Fountain;tile93;;;;;;;;;;;;;;;;;;;;;;;;;;
