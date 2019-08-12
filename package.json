@@ -27,7 +27,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "yarn run build:tiles && react-scripts build",
-    "test": "react-scripts test",
+    "test": "yarn run build:tiles && react-scripts build",
     "eject": "react-scripts eject",
     "build:tiles": "node ./scripts/compileTiles.js",
     "build:assets": "node ./scripts/importAssets.js",
