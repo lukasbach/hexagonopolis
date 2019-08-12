@@ -14,17 +14,13 @@ const styles = StyleSheet.create({
   verticalSplitContainer: {
     display: 'flex',
     flexDirection: 'column',
-    height: '100%',
-    ':first-child': {
-      flexGrow: 1
-    }
+    height: '100%'
   },
   horizontalSplitContainer: {
     display: 'flex',
     flexDirection: 'row',
-    ':first-child': {
-      flexGrow: 1
-    }
+    flexGrow: 1,
+    overflow: 'hidden'
   }
 
 });
