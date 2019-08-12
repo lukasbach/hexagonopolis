@@ -1,0 +1,1223 @@
+[
+  {
+    "id": "blocking_rock",
+    "description": "Welp, I guess you can't build here!",
+    "name": "Blocking Rock",
+    "assetName": "tile14",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "blocking_rock_2",
+    "description": "Welp, I guess you can't build here!",
+    "name": "Blocking Rock",
+    "assetName": "tile15",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "blocking_rock_3",
+    "description": "Welp, I guess you can't build here!",
+    "name": "Blocking Rock",
+    "assetName": "tile16",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "joker",
+    "name": "Joker Tile",
+    "assetName": "tile92",
+    "grants": [
+      {
+        "resourceId": "agriculture",
+        "amount": 5
+      },
+      {
+        "resourceId": "fuel",
+        "amount": 5
+      },
+      {
+        "resourceId": "relaxing",
+        "amount": 5
+      },
+      {
+        "resourceId": "sightseeing",
+        "amount": 5
+      },
+      {
+        "resourceId": "social",
+        "amount": 5
+      },
+      {
+        "resourceId": "stone",
+        "amount": 5
+      },
+      {
+        "resourceId": "wood",
+        "amount": 5
+      }
+    ],
+    "requirements": []
+  },
+  {
+    "id": "farm_fields",
+    "name": "Fields",
+    "assetName": "tile124",
+    "grants": [
+      {
+        "resourceId": "agriculture",
+        "amount": 2
+      },
+      {
+        "resourceId": "relaxing",
+        "amount": 1
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "social",
+        "min": 1
+      },
+      {
+        "resourceId": "wood",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "id": "farm_smelt",
+    "name": "Smeltery",
+    "assetName": "tile128",
+    "grants": [
+      {
+        "resourceId": "agriculture",
+        "amount": 2
+      },
+      {
+        "resourceId": "social",
+        "amount": 1
+      },
+      {
+        "resourceId": "stone",
+        "amount": 4
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "stone",
+        "min": 3
+      }
+    ]
+  },
+  {
+    "id": "farm_smith",
+    "name": "Smith",
+    "assetName": "tile126",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "lumberjack",
+    "name": "Lumberjack",
+    "assetName": "tile129",
+    "grants": [
+      {
+        "resourceId": "agriculture",
+        "amount": 1
+      },
+      {
+        "resourceId": "wood",
+        "amount": 6
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "wood",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "id": "road_grass_stone",
+    "name": "Stone Transportation Road",
+    "assetName": "tile79",
+    "grants": [
+      {
+        "resourceId": "stone",
+        "amount": 2
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "stone",
+        "min": 2
+      }
+    ]
+  },
+  {
+    "id": "road_grass_wood",
+    "name": "Wood transportation Road",
+    "assetName": "tile79",
+    "grants": [
+      {
+        "resourceId": "wood",
+        "amount": 2
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "wood",
+        "min": 2
+      }
+    ]
+  },
+  {
+    "id": "residential0",
+    "name": "Residential Home",
+    "assetName": "tile143",
+    "grants": [
+      {
+        "resourceId": "waste",
+        "amount": 2
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "noise",
+        "max": 2
+      },
+      {
+        "resourceId": "social",
+        "min": 2
+      }
+    ]
+  },
+  {
+    "id": "residential1",
+    "name": "Residential Home",
+    "assetName": "tile144",
+    "grants": [
+      {
+        "resourceId": "waste",
+        "amount": 2
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "noise",
+        "max": 2
+      },
+      {
+        "resourceId": "social",
+        "min": 2
+      }
+    ]
+  },
+  {
+    "id": "residential2",
+    "name": "Residential Home",
+    "assetName": "tile145",
+    "grants": [
+      {
+        "resourceId": "waste",
+        "amount": 2
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "noise",
+        "max": 2
+      },
+      {
+        "resourceId": "social",
+        "min": 2
+      }
+    ]
+  },
+  {
+    "id": "residential3",
+    "name": "Residential Home",
+    "assetName": "tile146",
+    "grants": [
+      {
+        "resourceId": "waste",
+        "amount": 2
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "noise",
+        "max": 2
+      },
+      {
+        "resourceId": "social",
+        "min": 2
+      }
+    ]
+  },
+  {
+    "id": "castle_small",
+    "name": "Small Castle",
+    "assetName": "tile133",
+    "grants": [
+      {
+        "resourceId": "relaxing",
+        "amount": 2
+      },
+      {
+        "resourceId": "sightseeing",
+        "amount": 1
+      },
+      {
+        "resourceId": "social",
+        "amount": 2
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "military",
+        "max": 0
+      },
+      {
+        "resourceId": "wood",
+        "min": 1
+      },
+      {
+        "resourceId": "waste",
+        "max": 0
+      }
+    ]
+  },
+  {
+    "id": "castle_big",
+    "name": "Large Castle",
+    "assetName": "tile134",
+    "grants": [
+      {
+        "resourceId": "relaxing",
+        "amount": 4
+      },
+      {
+        "resourceId": "sightseeing",
+        "amount": 3
+      },
+      {
+        "resourceId": "social",
+        "amount": 3
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "military",
+        "max": 0
+      },
+      {
+        "resourceId": "stone",
+        "min": 1
+      },
+      {
+        "resourceId": "waste",
+        "max": 0
+      }
+    ]
+  },
+  {
+    "id": "arc",
+    "name": "Roman Triumphal Arc",
+    "assetName": "tile158",
+    "grants": [
+      {
+        "resourceId": "relaxing",
+        "amount": 2
+      },
+      {
+        "resourceId": "sightseeing",
+        "amount": 2
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "military",
+        "max": 0
+      },
+      {
+        "resourceId": "stone",
+        "min": 1
+      },
+      {
+        "resourceId": "wood",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "id": "office_small",
+    "description": "Lots of people working there! Like almost a quarter of them!",
+    "name": "Small Office Building",
+    "assetName": "tile103",
+    "grants": [
+      {
+        "resourceId": "noise",
+        "amount": 1
+      },
+      {
+        "resourceId": "social",
+        "amount": 2
+      },
+      {
+        "resourceId": "waste",
+        "amount": 1
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "military",
+        "min": 1
+      },
+      {
+        "resourceId": "stone",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "id": "office_medium",
+    "name": "Medium Office Building",
+    "assetName": "tile161",
+    "grants": [
+      {
+        "resourceId": "noise",
+        "amount": 2
+      },
+      {
+        "resourceId": "social",
+        "amount": 3
+      },
+      {
+        "resourceId": "waste",
+        "amount": 1
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "military",
+        "min": 1
+      },
+      {
+        "resourceId": "stone",
+        "min": 2
+      }
+    ]
+  },
+  {
+    "id": "office_big",
+    "name": "Large Office Building",
+    "assetName": "tile162",
+    "grants": [
+      {
+        "resourceId": "noise",
+        "amount": 3
+      },
+      {
+        "resourceId": "social",
+        "amount": 2
+      },
+      {
+        "resourceId": "waste",
+        "amount": 3
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "military",
+        "min": 2
+      },
+      {
+        "resourceId": "stone",
+        "min": 3
+      }
+    ]
+  },
+  {
+    "id": "shop0",
+    "name": "Shop",
+    "assetName": "tile147",
+    "grants": [
+      {
+        "resourceId": "noise",
+        "amount": 1
+      },
+      {
+        "resourceId": "social",
+        "amount": 2
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "agriculture",
+        "min": 1
+      },
+      {
+        "resourceId": "wood",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "id": "shop1",
+    "name": "Shop",
+    "assetName": "tile148",
+    "grants": [
+      {
+        "resourceId": "noise",
+        "amount": 1
+      },
+      {
+        "resourceId": "social",
+        "amount": 2
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "agriculture",
+        "min": 2
+      },
+      {
+        "resourceId": "wood",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "id": "shop2",
+    "name": "Shop",
+    "assetName": "tile149",
+    "grants": [
+      {
+        "resourceId": "noise",
+        "amount": 1
+      },
+      {
+        "resourceId": "social",
+        "amount": 3
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "social",
+        "min": 1
+      },
+      {
+        "resourceId": "wood",
+        "min": 2
+      }
+    ]
+  },
+  {
+    "id": "waste_plant",
+    "name": "Waste Incineration Plant",
+    "assetName": "tile138",
+    "grants": [
+      {
+        "resourceId": "agriculture",
+        "amount": 2
+      },
+      {
+        "resourceId": "fuel",
+        "amount": 4
+      },
+      {
+        "resourceId": "noise",
+        "amount": 2
+      },
+      {
+        "resourceId": "waste",
+        "amount": -6
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "waste",
+        "min": 3
+      }
+    ]
+  },
+  {
+    "id": "church",
+    "name": "Church",
+    "assetName": "tile157",
+    "grants": [
+      {
+        "resourceId": "relaxing",
+        "amount": 4
+      },
+      {
+        "resourceId": "social",
+        "amount": 4
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "military",
+        "max": 0
+      },
+      {
+        "resourceId": "noise",
+        "max": 2
+      },
+      {
+        "resourceId": "social",
+        "min": 1
+      },
+      {
+        "resourceId": "wood",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "id": "camping",
+    "name": "Camping Place",
+    "assetName": "tile159",
+    "grants": [
+      {
+        "resourceId": "social",
+        "amount": 3
+      },
+      {
+        "resourceId": "wood",
+        "amount": 1
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "noise",
+        "max": 0
+      },
+      {
+        "resourceId": "relaxing",
+        "min": 3
+      },
+      {
+        "resourceId": "wood",
+        "min": 2
+      }
+    ]
+  },
+  {
+    "id": "mine",
+    "name": "Mining Shaft",
+    "assetName": "tile160",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "fountain",
+    "name": "Water Fountain",
+    "assetName": "tile93",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "parking",
+    "name": "Parking Lot",
+    "assetName": "tile95",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "trees_grass",
+    "name": "Forest",
+    "assetName": "tile12",
+    "grants": [
+      {
+        "resourceId": "noise",
+        "amount": -1
+      },
+      {
+        "resourceId": "wood",
+        "amount": 2
+      }
+    ],
+    "requirements": []
+  },
+  {
+    "id": "trees_dirt",
+    "name": "Forest",
+    "assetName": "tile34",
+    "grants": [
+      {
+        "resourceId": "noise",
+        "amount": -1
+      },
+      {
+        "resourceId": "wood",
+        "amount": 2
+      }
+    ],
+    "requirements": []
+  },
+  {
+    "id": "trees_sand",
+    "name": "Forest",
+    "assetName": "tile56",
+    "grants": [
+      {
+        "resourceId": "noise",
+        "amount": -1
+      },
+      {
+        "resourceId": "wood",
+        "amount": 2
+      }
+    ],
+    "requirements": []
+  },
+  {
+    "id": "military_hanger",
+    "name": "Military Hanger",
+    "assetName": "tile97",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "military_tanks",
+    "name": "Military Outpost",
+    "assetName": "tile98",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "military_rockets",
+    "name": "Rockets Launch Site",
+    "assetName": "tile99",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "military_turret_small",
+    "name": "Small Turret",
+    "assetName": "tile100",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "military_turret_medium",
+    "name": "Large Turret",
+    "assetName": "tile101",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "military_turret_big",
+    "name": "Anti Air Defense Turret",
+    "assetName": "tile102",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "library",
+    "name": "Local Library",
+    "assetName": "tile149",
+    "grants": [
+      {
+        "resourceId": "relaxing",
+        "amount": 2
+      },
+      {
+        "resourceId": "social",
+        "amount": 3
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "noise",
+        "max": 1
+      },
+      {
+        "resourceId": "social",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "id": "saloon0",
+    "name": "Saloon",
+    "assetName": "tile150",
+    "grants": [
+      {
+        "resourceId": "relaxing",
+        "amount": 1
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "social",
+        "min": 2
+      },
+      {
+        "resourceId": "wood",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "id": "saloon1",
+    "name": "Saloon",
+    "assetName": "tile151",
+    "grants": [
+      {
+        "resourceId": "relaxing",
+        "amount": 2
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "social",
+        "min": 2
+      },
+      {
+        "resourceId": "stone",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "id": "watertower",
+    "name": "Water Tower",
+    "assetName": "tile153",
+    "grants": [
+      {
+        "resourceId": "agriculture",
+        "amount": 2
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "wood",
+        "min": 3,
+        "max": 3
+      }
+    ]
+  },
+  {
+    "id": "western_shop0",
+    "name": "Hardware Shop",
+    "assetName": "tile154",
+    "grants": [
+      {
+        "resourceId": "social",
+        "amount": 2
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "agriculture",
+        "min": 2
+      },
+      {
+        "resourceId": "wood",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "id": "sheriff",
+    "name": "Sheriff's Office",
+    "assetName": "tile155",
+    "grants": [
+      {
+        "resourceId": "military",
+        "amount": 2
+      },
+      {
+        "resourceId": "social",
+        "amount": 2
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "social",
+        "min": 2
+      },
+      {
+        "resourceId": "wood",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "id": "tipis",
+    "name": "Tipis",
+    "assetName": "tile156",
+    "grants": [
+      {
+        "resourceId": "agriculture",
+        "amount": 1
+      },
+      {
+        "resourceId": "relaxing",
+        "amount": 1
+      },
+      {
+        "resourceId": "social",
+        "amount": 1
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "social",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "id": "police",
+    "name": "Police Station",
+    "assetName": "tile103",
+    "grants": [
+      {
+        "resourceId": "military",
+        "amount": 2
+      },
+      {
+        "resourceId": "social",
+        "amount": 2
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "social",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "id": "rock_grass",
+    "name": "Rocks",
+    "assetName": "tile15",
+    "grants": [
+      {
+        "resourceId": "stone",
+        "amount": 2
+      }
+    ],
+    "requirements": []
+  },
+  {
+    "id": "rock_dirt",
+    "name": "Rocks",
+    "assetName": "tile39",
+    "grants": [
+      {
+        "resourceId": "stone",
+        "amount": 2
+      }
+    ],
+    "requirements": []
+  },
+  {
+    "id": "rock_sand",
+    "name": "Rocks",
+    "assetName": "tile59",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "western_bank",
+    "name": "Bank",
+    "assetName": "tile152",
+    "grants": [
+      {
+        "resourceId": "social",
+        "amount": 4
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "military",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "id": "blocking_rock_sand",
+    "name": "Blocking Rock",
+    "assetName": "tile58",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "blocking_rock_sand1",
+    "name": "Blocking Rock",
+    "assetName": "tile59",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "",
+    "name": "",
+    "assetName": "",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "",
+    "name": "",
+    "assetName": "",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "",
+    "name": "",
+    "assetName": "",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "",
+    "name": "",
+    "assetName": "",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "mars_trees",
+    "name": "Infested Trees",
+    "assetName": "tile72",
+    "grants": [
+      {
+        "resourceId": "extraterrestrial",
+        "amount": 2
+      }
+    ],
+    "requirements": []
+  },
+  {
+    "id": "mars_crystals",
+    "name": "Mysterious Crystals",
+    "assetName": "tile73",
+    "grants": [
+      {
+        "resourceId": "crystal",
+        "amount": 2
+      }
+    ],
+    "requirements": []
+  },
+  {
+    "id": "mars_crystal_rock",
+    "name": "Mysterious Rock",
+    "assetName": "tile74",
+    "grants": [
+      {
+        "resourceId": "crystal",
+        "amount": 2
+      },
+      {
+        "resourceId": "stone",
+        "amount": 2
+      }
+    ],
+    "requirements": []
+  },
+  {
+    "id": "mars_rock0",
+    "name": "Rock",
+    "assetName": "tile76",
+    "grants": [
+      {
+        "resourceId": "stone",
+        "amount": 2
+      }
+    ],
+    "requirements": []
+  },
+  {
+    "id": "mars_rock1",
+    "name": "Rock",
+    "assetName": "tile77",
+    "grants": [
+      {
+        "resourceId": "stone",
+        "amount": 2
+      }
+    ],
+    "requirements": []
+  },
+  {
+    "id": "blocking_rock_mars0",
+    "name": "Blocking Rock",
+    "assetName": "tile76",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "blocking_rock_mars1",
+    "name": "Blocking Rock",
+    "assetName": "tile77",
+    "grants": [],
+    "requirements": []
+  },
+  {
+    "id": "mars_residential0",
+    "name": "Living Quarters",
+    "assetName": "tile122",
+    "grants": [],
+    "requirements": [
+      {
+        "resourceId": "agriculture",
+        "min": 2
+      },
+      {
+        "resourceId": "stone",
+        "min": 2
+      }
+    ]
+  },
+  {
+    "id": "mars_residential1",
+    "name": "Living Quarters",
+    "assetName": "tile121",
+    "grants": [],
+    "requirements": [
+      {
+        "resourceId": "agriculture",
+        "min": 2
+      },
+      {
+        "resourceId": "military",
+        "min": 3
+      }
+    ]
+  },
+  {
+    "id": "mars_construction",
+    "name": "Construction Hall",
+    "assetName": "tile115",
+    "grants": [
+      {
+        "resourceId": "crystal",
+        "amount": 4
+      },
+      {
+        "resourceId": "extraterrestrial",
+        "amount": 4
+      },
+      {
+        "resourceId": "fuel",
+        "amount": 1
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "crystal",
+        "min": 2
+      },
+      {
+        "resourceId": "extraterrestrial",
+        "min": 4
+      }
+    ]
+  },
+  {
+    "id": "mars_factory",
+    "name": "Factory",
+    "assetName": "tile113",
+    "grants": [
+      {
+        "resourceId": "fuel",
+        "amount": 2
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "crystal",
+        "min": 4
+      },
+      {
+        "resourceId": "extraterrestrial",
+        "min": 2
+      },
+      {
+        "resourceId": "military",
+        "min": 1
+      }
+    ]
+  },
+  {
+    "id": "mars_ship",
+    "name": "Landing Dock",
+    "assetName": "tile117",
+    "grants": [
+      {
+        "resourceId": "crystal",
+        "amount": 1
+      },
+      {
+        "resourceId": "extraterrestrial",
+        "amount": 1
+      },
+      {
+        "resourceId": "military",
+        "amount": 3
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "fuel",
+        "min": 2
+      }
+    ]
+  },
+  {
+    "id": "mars_fuelcrate",
+    "name": "Fuel Crate",
+    "assetName": "tile118",
+    "grants": [],
+    "requirements": [
+      {
+        "resourceId": "fuel",
+        "min": 5
+      }
+    ]
+  },
+  {
+    "id": "mars_rocket_hall",
+    "name": "Rocket Construction Facility",
+    "assetName": "tile106",
+    "grants": [],
+    "requirements": [
+      {
+        "resourceId": "crystal",
+        "min": 1
+      },
+      {
+        "resourceId": "extraterrestrial",
+        "min": 1
+      },
+      {
+        "resourceId": "fuel",
+        "min": 3
+      }
+    ]
+  },
+  {
+    "id": "mars_food",
+    "name": "Biospheres",
+    "assetName": "tile105",
+    "grants": [
+      {
+        "resourceId": "agriculture",
+        "amount": 2
+      }
+    ],
+    "requirements": [
+      {
+        "resourceId": "extraterrestrial",
+        "min": 1
+      }
+    ]
+  }
+]
