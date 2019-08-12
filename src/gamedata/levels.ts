@@ -381,7 +381,7 @@ export const levels: ILevel[] = [
     predialog: [
       { talkerAsset: 'walrus', talkerName: 'Van Walrus', side: 0, message: 'You did a great job preparing the city creation so far.' },
       { talkerAsset: 'walrus', talkerName: 'Van Walrus', side: 0, message: 'We now want to start construction on a much larger pace.' },
-      { talkerAsset: 'penguin', talkerName: 'Penguin M.Sc.', side: 1, message: 'But it looks like I have way fewer cards to do so this time.' },
+      { talkerAsset: 'penguin', talkerName: 'Penguin M.Sc.', side: 2, message: 'But it looks like I have way fewer cards to do so this time.' },
       { talkerAsset: 'walrus', talkerName: 'Van Walrus', side: 0, message: 'This is a Fill-The-City level, your goal is not to get rid of all cards, but fill every free space on the map.' },
       { talkerAsset: 'walrus', talkerName: 'Van Walrus', side: 0, message: 'You will always have exactly four cards on your hands. Every time you place a card, the leftmost card and the placed card will be removed and you will receive two new cards.' },
       { talkerAsset: 'walrus', talkerName: 'Van Walrus', side: 0, message: 'Good luck!' },
