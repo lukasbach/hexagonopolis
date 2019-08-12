@@ -7,6 +7,8 @@ const { readFileSync, writeFileSync } = require('fs');
 
   const tiles = [];
 
+  const getPushToArrayFunction = arr => entity => arr.push(entity);
+
   for (let row of rows) {
     if (row === '') {
       continue;
@@ -56,31 +58,31 @@ const { readFileSync, writeFileSync } = require('fs');
       requirements: []
     };
 
-    addRequirement(reqAgriculture,  'agriculture', r => tile.requirements.push(r));
-    addRequirement(reqCrystals, 'crystal', r => tile.requirements.push(r));
-    addRequirement(reqExtraterretrial, 'extraterrestrial', r => tile.requirements.push(r));
-    addRequirement(reqFuel, 'fuel', r => tile.requirements.push(r));
-    addRequirement(reqMilitary, 'military', r => tile.requirements.push(r));
-    addRequirement(reqNoise,  'noise', r => tile.requirements.push(r));
-    addRequirement(reqRelaxation, 'relaxing', r => tile.requirements.push(r));
-    addRequirement(reqSightSeeing,  'sightseeing', r => tile.requirements.push(r));
-    addRequirement(reqSocial, 'social', r => tile.requirements.push(r));
-    addRequirement(reqStone,  'stone', r => tile.requirements.push(r));
-    addRequirement(reqWood, 'wood', r => tile.requirements.push(r));
-    addRequirement(reqWaste,  'waste', r => tile.requirements.push(r));
+    addRequirement(reqAgriculture,  'agriculture', getPushToArrayFunction(tile.requirements));
+    addRequirement(reqCrystals, 'crystal', getPushToArrayFunction(tile.requirements));
+    addRequirement(reqExtraterretrial, 'extraterrestrial', getPushToArrayFunction(tile.requirements));
+    addRequirement(reqFuel, 'fuel', getPushToArrayFunction(tile.requirements));
+    addRequirement(reqMilitary, 'military', getPushToArrayFunction(tile.requirements));
+    addRequirement(reqNoise,  'noise', getPushToArrayFunction(tile.requirements));
+    addRequirement(reqRelaxation, 'relaxing', getPushToArrayFunction(tile.requirements));
+    addRequirement(reqSightSeeing,  'sightseeing', getPushToArrayFunction(tile.requirements));
+    addRequirement(reqSocial, 'social', getPushToArrayFunction(tile.requirements));
+    addRequirement(reqStone,  'stone', getPushToArrayFunction(tile.requirements));
+    addRequirement(reqWood, 'wood', getPushToArrayFunction(tile.requirements));
+    addRequirement(reqWaste,  'waste', getPushToArrayFunction(tile.requirements));
 
-    addGranting(grantsAgriculture,  'agriculture', r => tile.grants.push(r));
-    addGranting(grantsCrystals, 'crystal', r => tile.grants.push(r));
-    addGranting(grantsExtraterretrial, 'extraterrestrial', r => tile.grants.push(r));
-    addGranting(grantsFuel, 'fuel', r => tile.grants.push(r));
-    addGranting(grantsMilitary, 'military', r => tile.grants.push(r));
-    addGranting(grantsNoise,  'noise', r => tile.grants.push(r));
-    addGranting(grantsRelaxation, 'relaxing', r => tile.grants.push(r));
-    addGranting(grantsSightSeeing,  'sightseeing', r => tile.grants.push(r));
-    addGranting(grantsSocial, 'social', r => tile.grants.push(r));
-    addGranting(grantsStone,  'stone', r => tile.grants.push(r));
-    addGranting(grantsWood, 'wood', r => tile.grants.push(r));
-    addGranting(grantsWaste,  'waste', r => tile.grants.push(r));
+    addGranting(grantsAgriculture,  'agriculture', getPushToArrayFunction(tile.grants));
+    addGranting(grantsCrystals, 'crystal', getPushToArrayFunction(tile.grants));
+    addGranting(grantsExtraterretrial, 'extraterrestrial', getPushToArrayFunction(tile.grants));
+    addGranting(grantsFuel, 'fuel', getPushToArrayFunction(tile.grants));
+    addGranting(grantsMilitary, 'military', getPushToArrayFunction(tile.grants));
+    addGranting(grantsNoise,  'noise', getPushToArrayFunction(tile.grants));
+    addGranting(grantsRelaxation, 'relaxing', getPushToArrayFunction(tile.grants));
+    addGranting(grantsSightSeeing,  'sightseeing', getPushToArrayFunction(tile.grants));
+    addGranting(grantsSocial, 'social', getPushToArrayFunction(tile.grants));
+    addGranting(grantsStone,  'stone', getPushToArrayFunction(tile.grants));
+    addGranting(grantsWood, 'wood', getPushToArrayFunction(tile.grants));
+    addGranting(grantsWaste,  'waste', getPushToArrayFunction(tile.grants));
 
     tiles.push(tile);
   }
@@ -106,7 +108,7 @@ function parseRequirement(req, resourceId) {
   try {
     if (req === '' || req === undefined) {
       return null;
-    } if (req.includes('+')) {
+    } else if (req.includes('+')) {
       return { resourceId, min: parseInt(req.replace('+', '')) };
     } else if (req.endsWith('-')) {
       return { resourceId, max: parseInt(req.replace('-', '')) };
