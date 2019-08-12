@@ -1,7 +1,7 @@
 import {IAbstractTileInformation} from "../types";
 import tiles from './tiles.json';
 
-const oldtiles: IAbstractTileInformation[] = [
+/*const oldtiles: IAbstractTileInformation[] = [
   {
     id: 'blocking_rock',
     name: 'Blocking Rock',
@@ -430,6 +430,6 @@ const oldtiles: IAbstractTileInformation[] = [
     grants: [],
     costs: 0
   },
-];
+];*/
 
 export default tiles as IAbstractTileInformation[];

@@ -2,11 +2,8 @@ import * as React from "react";
 import {StyleSheet, css} from "aphrodite";
 import {HexagonPositioningService} from "../../utils/HexagonPositioningService";
 import {useState} from "react";
-import {useEffect} from "react";
-import {HoverOverTile} from "../../state/board";
-import {IAbstractTileInformationResourceInformation, ISpecificTile, ResourceMetricIntent} from "../../types";
+import {ISpecificTile} from "../../types";
 import {AssetService} from "../../utils/AssetService";
-import {MetricText} from "./MetricText";
 
 const styles = StyleSheet.create({
   containerAbsolutePositioning: {
@@ -123,6 +120,7 @@ export const Tile: React.FC<{
             top: !isHovering ? 0 : `${hoveringSizeChange}px`,
             left: !isHovering ? 0 : `${hoveringSizeChange}px`,
           }}
+          alt={`${props.tile.type} tile of type`}
         />
 
         <div

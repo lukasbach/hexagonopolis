@@ -1,10 +1,8 @@
 import * as React from "react";
-import {StyleSheet, css} from "aphrodite";
 import {TileBoardContainer} from "../commonui/TileBoardContainer";
 import {useDispatch, useMappedState} from "redux-react-hook";
 import {IReduxState} from "../../types";
 import {loadCampaignBoard} from "../../utils/loadCampaignBoard";
-import {BoardTile} from "../level/BoardTile";
 import {Tile} from "../commonui/Tile";
 import {levels} from "../../gamedata/levels";
 import {loadLevel} from "../../utils/loadLevel";
@@ -12,7 +10,6 @@ import {EmphasizedText} from "../commonui/EmphasizedText";
 import {useUrlRouting} from "../../hooks";
 import {CampaignTitle} from "./CampaignTitle";
 
-const styles = StyleSheet.create({});
 
 export const CampaignMenu: React.FC<{}> = props => {
   const dispatch = useDispatch();

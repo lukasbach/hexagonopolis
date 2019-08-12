@@ -1,14 +1,12 @@
 import * as React from "react";
 import {StyleSheet, css} from "aphrodite";
 import {BottomBarCard} from "./BottomBarCard";
-import {useCallback, useContext} from "react";
 import {useDispatch, useMappedState} from "redux-react-hook";
 import {IAbstractTileInformation, IReduxState} from "../../types";
 import {getCards} from "../../state/filters";
 import {SelectCard} from "../../state/cards";
 import {useCheckWin, usePrimaryColor} from "../../hooks";
 import {EmphasizedText} from "../commonui/EmphasizedText";
-import {Message} from "../commonui/Message";
 import {LoadLevel} from "../../state/level";
 
 const styles = StyleSheet.create({

@@ -1,12 +1,10 @@
 import * as React from "react";
-import {StyleSheet, css} from "aphrodite";
 import {useMappedState} from "redux-react-hook";
 import {IReduxState} from "../types";
 import {GameContainer} from "./level/GameContainer";
 import {CampaignMenu} from "./campaign/CampaignMenu";
 import {MainMenu} from "./menu/MainMenu";
 
-const styles = StyleSheet.create({});
 
 export const ScreenRouter: React.FC<{}> = props => {
   const { isInGame, isInCampaign, isInMainMenu } = useMappedState((state: IReduxState) => ({

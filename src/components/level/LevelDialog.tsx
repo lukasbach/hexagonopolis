@@ -1,46 +1,35 @@
 import * as React from "react";
-import {StyleSheet, css} from "aphrodite";
 import {Message} from "../commonui/Message";
 import {IDialogMessage, IReduxState} from "../../types";
-import {useEffect, useState} from "react";
-import {useDispatch, useMappedState} from "redux-react-hook";
+// import {useEffect} from "react";
+import {/*useDispatch, */useMappedState} from "redux-react-hook";
 import {
   getCurrentDialogMessage,
-  getPostDialogIndex,
   getPreDialogIndex,
-  isPostDialogFinished,
-  isPreDialogFinished
 } from "../../state/filters";
-import {NextDialogMessage} from "../../state/dialogProgress";
-
-const styles = StyleSheet.create({
-
-});
+// import {NextDialogMessage} from "../../state/dialogProgress";
 
 export const LevelDialog: React.FC<{
   preDialog: IDialogMessage[];
   postDialog: IDialogMessage[];
 }> = props => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
 
   const {
-    preDialogIndex, postDialogIndex, preDialogFinished, postDialogFinished, nextMessage, gameMode
+    /*preDialogIndex, nextMessage, */gameMode
   } = useMappedState((state: IReduxState) => ({
     preDialogIndex: getPreDialogIndex(state),
-    postDialogIndex: getPostDialogIndex(state),
-    preDialogFinished: isPreDialogFinished(state),
-    postDialogFinished: isPostDialogFinished(state),
     nextMessage: getCurrentDialogMessage(state),
     gameMode: state.level ? state.level.gamemode : 'cityfill'
   }));
 
-  useEffect(() => {
+  /*useEffect(() => {
     if (nextMessage) {
       setTimeout(() => {
         dispatch(NextDialogMessage.create({}));
       }, nextMessage.message.length * 70);
     }
-  }, [preDialogIndex])
+  }, [preDialogIndex]);*/
 
   return (
     <>
@@ -52,7 +41,7 @@ export const LevelDialog: React.FC<{
               side={msg.side === 0 ? "left" : msg.side === 2 ? "right" : undefined}
               title={msg.talkerName}
               avatarAsset={msg.talkerAsset}
-              entryAnimation={i === preDialogIndex}
+              /*entryAnimation={i === preDialogIndex}*/
             >
               { msg.message }
             </Message>

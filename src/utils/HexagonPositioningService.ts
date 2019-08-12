@@ -3,7 +3,7 @@ export class HexagonPositioningService {
   private static HEXAGON_WIDTH_PER_HEIGHT = 480 / 561;
 
   public static getTilePositioning(x: number, y: number, tileWidth: number = 128, border: number = 4): [number, number] {
-    const isEvenY = y % 2 == 0;
+    const isEvenY = y % 2 === 0;
     const tileHeight = this.getHeight(tileWidth);
 
     const xPosition = y * (tileHeight + border - this.getUpperPartHeight(tileWidth));

@@ -18,7 +18,7 @@ const reducer = TypedReducer.builder<ICampaign | undefined>()
 
     return campaign;
   })
-  .withHandler(LeaveCampaign.TYPE, (state, {}) => undefined)
+  .withHandler(LeaveCampaign.TYPE, () => undefined)
   .build();
 
 export default reducer;

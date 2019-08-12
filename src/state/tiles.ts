@@ -1,4 +1,4 @@
-import {setWith, TypedAction, TypedReducer} from "redoodle";
+import {TypedAction, TypedReducer} from "redoodle";
 import {IAbstractTileInformation} from "../types";
 
 export const DefineAbstractTile = TypedAction.define("@@tiles/define")<{

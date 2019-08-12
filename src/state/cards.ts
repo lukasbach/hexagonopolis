@@ -51,7 +51,7 @@ const reducer = TypedReducer.builder<ICardsState>()
 
     return setWith(state, { hand: [...state.hand, ...takenCards] });
   })
-  .withHandler(ResetCards.TYPE, (state, {}) => setWith(state, { hand: [], deck: [] }))
+  .withHandler(ResetCards.TYPE, (state) => setWith(state, { hand: [], deck: [] }))
   .build();
 
 export default reducer;

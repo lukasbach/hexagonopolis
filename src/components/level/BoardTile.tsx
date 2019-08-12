@@ -1,10 +1,5 @@
 import * as React from "react";
-import {useEffect, useState} from "react";
-import {css, StyleSheet} from "aphrodite";
-import {HexagonPositioningService} from "../../utils/HexagonPositioningService";
-import {AssetService} from "../../utils/AssetService";
 import {
-  IAbstractTileInformation,
   IAbstractTileInformationResourceInformation,
   IReduxState,
   ISpecificTile,

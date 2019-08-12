@@ -1,9 +1,6 @@
 import * as React from "react";
 import {StyleSheet, css} from "aphrodite";
-import {TileBoardContainer} from "../commonui/TileBoardContainer";
 import {Tile} from "../commonui/Tile";
-import {loadLevel} from "../../utils/loadLevel";
-import {EmphasizedText} from "../commonui/EmphasizedText";
 
 const styles = StyleSheet.create({
   container: {

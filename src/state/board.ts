@@ -73,7 +73,7 @@ const reducer = TypedReducer.builder<IBoardState>()
       });
     }
   })
-  .withHandler(ResetBoard.TYPE, (state, {}) => setWith(state, { tiles: [] }))
+  .withHandler(ResetBoard.TYPE, (state) => setWith(state, { tiles: [] }))
   .build();
 
 export default reducer;

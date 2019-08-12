@@ -1,6 +1,6 @@
 import * as React from "react";
 import {StyleSheet, css} from "aphrodite";
-import {ICampaign, IReduxState} from "../../types";
+import {IReduxState} from "../../types";
 import {EmphasizedText} from "../commonui/EmphasizedText";
 import {useDispatch, useMappedState} from "redux-react-hook";
 import {Button} from "../commonui/Button";

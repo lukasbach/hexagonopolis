@@ -2,7 +2,6 @@ import {
   IAbstractTileInformation, IAbstractTileInformationResourceInformation,
   IReduxState,
   IResource,
-  ISpecificEmptyTile,
   ISpecificPlacedTile,
   ISpecificTile
 } from "../types";

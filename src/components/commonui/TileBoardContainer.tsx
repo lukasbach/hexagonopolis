@@ -33,7 +33,7 @@ export const TileBoardContainer: React.FC<{
         yPos + 800 - containerRef.current.offsetHeight / 2,
       )
     }
-  }, []);
+  }, [props.initialCentering]);
 
   const onDrag = (x: number, y: number) => {
     if (containerRef.current && dragStart) {

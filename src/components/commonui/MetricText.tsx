@@ -96,6 +96,7 @@ export const MetricText: React.FC<{
         <img
           src={AssetService.getObjectUrl(resource.assetName)}
           className={css(styles.image)}
+          alt={'Resource icon'}
         />
       </div>
       <span className={css(styles.metricValue)}>

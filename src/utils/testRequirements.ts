@@ -1,8 +1,7 @@
 import {
   IAbstractTileInformation,
   IAbstractTileInformationResourceInformation,
-  IResource,
-  ResourceMetricIntent
+  IResource
 } from "../types";
 
 /**

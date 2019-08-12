@@ -1,6 +1,6 @@
 import * as React from "react";
 import {StyleSheet, css} from "aphrodite";
-import {IAbstractTileInformation, IReduxState} from "../../types";
+import {IAbstractTileInformation} from "../../types";
 import {AssetService} from "../../utils/AssetService";
 import Color from 'color';
 import {usePrimaryColor} from "../../hooks";
@@ -116,6 +116,7 @@ export const BottomBarCard: React.FC<{
         <img
           src={AssetService.getTileUrl(props.tile.assetName)}
           className={css(styles.image)}
+          alt={props.tile.assetName}
         />
 
         <div
