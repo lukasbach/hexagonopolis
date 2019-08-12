@@ -108,8 +108,20 @@ export const MainMenu: React.FC<{}> = props => {
             />
 
             <TwoButtonContainer>
-              <MainMenuButton text={'GitHub Repo'} color={backgroundColor || '#000'} asset={'tile4'} fill={true}/>
-              <MainMenuButton text={'About'} color={backgroundColor || '#000'} asset={'tile4'} fill={true}/>
+              <MainMenuButton
+                text={'GitHub Repo'}
+                color={backgroundColor || '#000'}
+                asset={'tile4'}
+                fill={true}
+                onClick={() => window.open('https://github.com/lukasbach/hexagonopolis', '_blank')}
+              />
+              <MainMenuButton
+                text={'About'}
+                color={backgroundColor || '#000'}
+                asset={'tile4'}
+                fill={true}
+                onClick={() => window.open('https://github.com/lukasbach/hexagonopolis/blob/master/README.md', '_blank')}
+              />
             </TwoButtonContainer>
           </div>
         </div>
