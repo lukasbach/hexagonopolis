@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hexagonopolis/static/css/main.caa083ef.chunk.css",
+    "main.js": "/hexagonopolis/static/js/main.b7ec7417.chunk.js",
+    "main.js.map": "/hexagonopolis/static/js/main.b7ec7417.chunk.js.map",
+    "runtime~main.js": "/hexagonopolis/static/js/runtime~main.766f6878.js",
+    "runtime~main.js.map": "/hexagonopolis/static/js/runtime~main.766f6878.js.map",
+    "static/js/2.bc45f361.chunk.js": "/hexagonopolis/static/js/2.bc45f361.chunk.js",
+    "static/js/2.bc45f361.chunk.js.map": "/hexagonopolis/static/js/2.bc45f361.chunk.js.map",
+    "index.html": "/hexagonopolis/index.html",
+    "precache-manifest.d0d928cfd2817ca45987f955eeb81d8a.js": "/hexagonopolis/precache-manifest.d0d928cfd2817ca45987f955eeb81d8a.js",
+    "service-worker.js": "/hexagonopolis/service-worker.js",
+    "static/css/main.caa083ef.chunk.css.map": "/hexagonopolis/static/css/main.caa083ef.chunk.css.map"
+  }
+}
